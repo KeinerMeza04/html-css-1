@@ -1,0 +1,97 @@
+body{   
+    background: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+
+}
+
+.imagen img{
+    margin-left: 230px;
+    margin-top: 60px;
+}
+
+.box-text{
+    margin-top: 55px;
+    margin-left: 90px;
+}
+
+.box-text h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-text p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    padding-right: 100px;
+}
+
+button{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    color: blueviolet;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1416px){
+    .container{
+        display: inline;
+    }
+    .imagen img{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 855px){
+    .imagen img {
+        position: relative;
+        right: 80px;
+    }
+    .container{
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+    .box-text{
+        width: 100%;
+        text-align: center;
+    }
+    .box-text h1{
+        position: relative;
+        left: 120px;
+        font-size: 37px;
+    }
+    .box-text p {
+        position: relative;
+        left: 100px;
+        width: 100%;
+        font-size: 35px;
+    }
+    .boton{
+        position: relative;
+        left: 100px;
+        margin-top: 10px;
+    }
+    .imagen img {
+        position: relative;
+        right: 130px;
+    }
+}
